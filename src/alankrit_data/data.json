@@ -1,18 +1,40 @@
 [
   {
-    "educationDetails": {
-      "className": "education-details",
-      "bachelors": {
-        "schoolName": "Guru Gobind Singh Indraprastha University (GGSIPU)",
-        "schoolYears": "2019-2022",
-        "course": "BBA",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9GNTFenU_T9caTwA63o86iaVHMnf9eeEPw&s"
+    "sectionName": "Education",
+    "ID": 1,
+    "sectionData": [
+      {
+        "bachelors": {
+          "schoolName": "Guru Gobind Singh Indraprastha University (GGSIPU)",
+          "schoolYears": "2019-2022",
+          "course": "BBA",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9GNTFenU_T9caTwA63o86iaVHMnf9eeEPw&s"
+        }
       },
-      "masters": {
-        "schoolName": "Guru Gobind Singh Indraprastha University (GGSIPU)",
-        "schoolYears": "2019-2022",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9GNTFenU_T9caTwA63o86iaVHMnf9eeEPw&s"
+      {
+        "masters": {
+          "schoolName": "Guru Gobind Singh Indraprastha University (GGSIPU)",
+          "schoolYears": "2019-2022",
+          "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9GNTFenU_T9caTwA63o86iaVHMnf9eeEPw&s"
+        }
       }
+    ]
+  },
+  {
+    "sectionName": "Projects",
+    "ID": 2,
+    "Projects": {
+      "className": "education-details",
+      "project-1": {},
+      "project-2": {}
     }
+  },
+  {
+    "sectionName": "Work",
+    "ID": 3
+  },
+  {
+    "sectionName": "Open Source Contributions",
+    "ID": 4
   }
 ]

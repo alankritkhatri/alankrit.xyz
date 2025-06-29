@@ -1,8 +1,10 @@
 .home {
-  margin: 96px 0px;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 24px;
+  max-width: fit-content;
   /* dashed line  */
   .dashed-line {
     margin: 16px 0px;
@@ -35,6 +37,8 @@
   .about-section {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
     .name {
       line-height: 32px;
     }

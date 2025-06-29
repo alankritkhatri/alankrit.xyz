@@ -1,9 +1,21 @@
-import Infosection from "../../components/Info-Section/Infosection.jsx";
 import "./Home.css";
-import data from "../../alankrit_data/data.json";
+
 const Home = () => {
   return (
     <div className="home">
+      <img
+        style={{ width: "40%", height: "100%" }}
+        src="https://media.licdn.com/dms/image/v2/D5616AQFC8x2brifUAw/profile-displaybackgroundimage-shrink_350_1400/B56ZdZTnLiHUAY-/0/1749550003653?e=1756944000&v=beta&t=u3e15z4kj9Q2UA2--0g2qUg2JNcstb9tHOQJgXVYyKw"
+        alt=""
+      />
+
+      <div className="about-section">
+        <h1 className="name">Alankrit Khatri</h1>
+        <p>Full Stack Engineer at Docstribe AI | Building Keechu.com</p>
+        <div className="dashed-line"></div>
+      </div>
+
+      <h1>Socials</h1>
       <div
         className="badge-base LI-profile-badge"
         data-locale="en_US"
@@ -12,32 +24,7 @@ const Home = () => {
         data-type="VERTICAL"
         data-vanity="alankrit-khatri"
         data-version="v1"
-      >
-        {" "}
-        </div>
-
-      <div className="about-section">
-        <h1 className="name">Alankrit Khatri</h1>
-        <p>
-          Frontend Developer in the making. Looking for frontend internships &
-          projects
-        </p>
-        <div className="dashed-line"></div>
-        <p>
-          I love challenging tasks. I am motivated by interesting projects. I
-          prefer quick-iterations & prototype-driven work. I hate shaving yaks.
-          I love to build.
-        </p>
-      </div>
-      <div className="education-section">
-        <h1>Education</h1>
-        <Infosection {...data} />
-
-
-
-      
-        {console.log(data)}
-      </div>
+      ></div>
     </div>
   );
 };

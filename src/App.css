@@ -5,10 +5,11 @@
   font-family: Inter, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-body,html{
+body,
+html {
   min-height: 100vh;
-background: radial-gradient(50% 200px at 50% -10px, #404040, #000000);
-background-repeat: no-repeat;
+  background: radial-gradient(50% 200px at 50% -10px, #404040, #000000);
+  background-repeat: no-repeat;
 }
 .main {
   h1 {
