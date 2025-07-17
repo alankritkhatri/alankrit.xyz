@@ -1,3 +1,4 @@
+@import "tailwindcss";
 * {
   margin: 0px;
   padding: 0px;
@@ -36,9 +37,8 @@ html {
     align-items: center;
     justify-content: flex-end;
     gap: 4px;
-
     font-family: monospace;
-    animation: flicker 2s infinite;
+    animation: flicker 2s infinite; 
     h1 {
       font-size: 12px;
       font-weight: 600;
@@ -69,4 +69,7 @@ html {
   25% {
     opacity: 1;
   }
+}
+a{
+  color: rgb(65, 133, 235);
 }
